@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  scroll-behavior: smooth;
+}
+.header {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  background: linear-gradient(
+    to right,
+    #ff0066,
+    #0066ff,
+    #6600ff,
+    #009473,
+    #f7770f
+  );
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+}
+.header a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 1px solid #eceff1;
+  padding: 10px;
+  font-weight: bold;
+}
+.sec1 {
+  background-color: #ff0066;
+}
+.sec2 {
+  background-color: #0066ff;
+}
+.sec3 {
+  background-color: #6600ff;
+}
+.sec4 {
+  background-color: #009473;
+}
+.sec5 {
+  background-color: #f7770f;
+}
+section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10%;
+  color: white;
+}
+h1 {
+  font-size: 3em;
+}
+p {
+  text-align: center;
+  font-size: 1.5em;
+}
+.one {
+  background-color: #ff0066;
+}
+.two {
+  background-color: #0066ff;
+}
+.three {
+  background-color: #6600ff;
+}
+.four {
+  background-color: #009473;
+}
+.fife {
+  background-color: #f7770f;
+}
+.img1 {
+  background-image: url("images/wave-haikei.svg");
+  aspect-ratio: 900/600;
+  background-size: cover;
+}
+.img2 {
+  background-image: url("images/wave-haikei (1).svg");
+  aspect-ratio: 900/600;
+  background-size: cover;
+}
+.img3 {
+  background-image: url("images/wave-haikei (3).svg");
+  aspect-ratio: 900/600;
+  background-size: cover;
+}
+.img4 {
+  background-image: url("images/ew.svg");
+  aspect-ratio: 900/600;
+  background-size: cover;
+}
